@@ -7,6 +7,6 @@ services:
     ports:
       - "8030:8080"
     env_file:
-      - ./secret-stuff.${env}
+      - ./secret-stuff.${envr}
     deploy:
       replicas: 2
