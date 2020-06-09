@@ -7,7 +7,7 @@ services:
     networks:
       - overlay
     env_file:
-      - ./secret-stuff.${envr}
+      - ./secret-stuff.dev
     deploy:
       replicas: 2
 
