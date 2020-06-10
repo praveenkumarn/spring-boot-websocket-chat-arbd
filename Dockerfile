@@ -1,5 +1,5 @@
 # Start with a base image containing Java runtime
-FROM openjdk:8-jdk-alpine
+FROM 172.31.44.24:8083/openjdk:8-jdk-alpine
 
 # Add Maintainer Info
 MAINTAINER Praveen Kumar N<praveenkumar.nagarajan@gmail.com>
